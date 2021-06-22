@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KISE JOB APPLICATION PORTAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owner.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <section id="header">
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="owner.html"><img src="https://www.kise.ac.ke/sites/default/files/kise_logo6.png"></a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item ">
+                            <b><a class="nav-link" href="tenders.html"><i class="fa fa-user"></i> User</a></b>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <b><a class="nav-link" href="sign in.html"> <i class="fa fa-gear"></i> Account</a></b>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="menu-bar2">
+            <div>
+                <img  class="logo"src="photos/kise icon.png" width="40" height="40" alt="">
+                <input  class="search"type="text" placeholder="Search People">
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list ml-auto">
+                    <li>
+                        <b><a class="nav-link" href="alljobs.htm">Dashboard <i class="fa fa-dashboard"></i></a></b>
+                    </li>
+                    <li>
+                        <b><a class="nav-link" href="alljobs.htm">Profile <i class="fa fa-user"></i></a></b>
+                    </li>
+                    <li>
+                        <b><a class="nav-link" href="internships.html">Notifications <i class="fa fa-bell"></i></a></b>
+                    </li>
+                    <li>
+                        <b><a class="nav-link" href="govt jobs.html">My Jobs <i class="fa fa-briefcase"></i></a></b>
+                    </li>
+                    <li>
+                        <b><a class="nav-link" href="tenders.html">Post Job <i class="fa fa-note"></i></a></b>
+                    </li>
+                    <li>
+                        
+                        <b><a class="nav-link" href="sign in.html">Settings <i class="fa fa-gears"></i></a></b>
+                    </li>  
+                </ul>
+            </div>
+        
+        </div>
+    </section>
+    <div class="main">
+        <div class="container">
+            <div class="container-header text-center">
+                <div class="box box-widget widget-user profile-gradient">
+                    <div style="text-align: center;"><div class="widget-user-header bg-profile"></div></div>	
+                    <div id="targetDpLayer" class="widget-user-image hand targetDpLayer"><?php echo $c__pic;?></div>
+                    <div class="banner-user text-center" style="padding-bottom: 0px;">
+                      <h2 class="profile-user text-center" style="font-weight:600;"><?php echo $c_name;?></h2>
+                      <h3  style="font-size:24px;font-weight: lighter;"> <?php echo $b_stream_name;?></h3>
+                      <h3><span style="font-size:14px;"><span style="margin: 0;color: #777;" class="fa fa-envelope"></span> <?php echo $c_email;?></span></h3>
+                      <h3><span style="font-size:14px;"><span style="margin: 0;color: #777;font-size:14px;" class="fa fa-phone"></span> <?php echo $c_contact;?></span></h3>
+                      <h3><span style="font-size:12px;"><span style="margin: 0;color: #777;font-size:14px;" class="fa fa-globe"></span> <a href="http://<?php echo $c_website_url?>" target="blank"><?php echo $c_website_url;?></a></span></h3><br>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-body">
+                <div class="widget widget-nopad">
+                    <div class="widget-header"> <i class="fa fa-briefcase"></i>&nbsp;
+                      <h3>Job Ads</h3>
+                    </div>
+                    <div class="widget-content">
+                      <div class="widget big-stats-container">
+                        <div class="widget-content">
+                          <div class="big_stats cf">
+                            <div class="rjobs">
+                              <div id="rjoblogs" class="rjoblogs"><?php echo $rjoblist;?></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="shortlist_initiator"></div>
+    <br /><br /><br />
+  <?php include_once("_ext/dashboard_footer.php");?>
+  <?php include_once("_ext/popup_jobpost.php");?>
+  <?php include_once("_ext/popup_jobpost-edit.php");?>
+  <?php include_once("_ext/popup_changedp.php");?>
+  <?php include_once("_ext/popup_company-profile.php");?>
+  <?php include_once("_ext/popup_jobpost-preview.php");?>
+  <?php include_once("_ext/popup_seeker-profile.php");?>
+  <!---------------------------------------------------------------------------->
+  <?php include_once("_ext/default_js.php");?>
+  <?php include_once("_ext/popup_add-requirements.php");?>
+  <?php include_once("_ext/dashboard_owlphin-box.php");?>
+  <script type="text/javascript">
+  
+  </script>
+            

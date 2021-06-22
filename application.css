@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(to right, #7ce08a, #6db9ef);
+}
+
+#header {
+    background-color: #FFCB05;
+    width: 100%;
+}
+
+#header img {
+    padding: 30px;
+}
+
+#notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #7ce08a, #6db9ef);
+    padding: 10px;
+    width: auto;
+}
+
+#applicationDetails {
+    margin-top: 20px;
+    background-color: #93cf95;
+    height: fit-content;
+}
+
+#applicationForm {
+    display: flex;
+    height: fit-content;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 35px;
+}
+
+#type1 {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#type2 {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3 {
+    margin-right: 20px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+h1 {
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+}
+
+#vacancy {
+    border-top: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#personalDetails {
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contactPerson {
+    border-bottom: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#currentEmployer {
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#otherPersonalDetails {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#otherPersonalDetails p {
+    margin-right: 7px;
+}
+
+#submitBtn {
+    border-radius: 2px;
+    border-color: darkgray;
+    width: 90%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}

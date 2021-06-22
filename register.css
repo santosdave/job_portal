@@ -1,0 +1,93 @@
+        * {
+            box-sizing: border-box
+        }
+        /* Add padding to containers */
+        
+        .container {
+            padding: 16px;
+        }
+        
+        body {
+            background-color: #F3EBF6;
+            font-family: 'Ubuntu', sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photos/KISE\ FRONT.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        /* Full-width input fields */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Overwrite default styles of hr */
+        
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        
+        .main {
+            background-image: linear-gradient(to right, #8cc6ff, #6afff3);
+            width: 400px;
+            height: fit-content;
+            margin: 7em auto;
+            border-radius: 1.5em;
+            box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }
+        /* Set a style for the submit/register button */
+        
+        .registerbtn {
+            cursor: pointer;
+            border-radius: 5em;
+            color: #fff;
+            background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            margin-left: 35%;
+            font-size: 13px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container p {
+            color: #fff;
+        }
+        
+        .registerbtn:hover {
+            opacity: 1;
+        }
+        /* Add a blue text color to links */
+        
+        a {
+            color: rgb(146, 175, 204);
+        }
+        /* Set a grey background color and center the text of the "sign in" section */
+        
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        .role1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
